@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(187, 175, 175);
+}
+.slider {
+  margin-top: 3%;
+  width: 900px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.slider--width {
+  height: 100%;
+  display: flex;
+  transition: all ease 0.3s;
+}
+.slider--item {
+  width: 100vw;
+  height: inherit;
+  background-position: center;
+  background-size: cover;
+}
+.slider--controls {
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider--control {
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.slider--control:hover {
+  transform: rotate(360deg);
+}
+.slider--control:active {
+  transform: scale(0.00009);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+  margin-right: 30px;
+  font-family: sans-serif;
+  color: #3c3636;
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  display: flex;
+  align-items: center;
+}
+.contact a {
+  height: 35px;
+  width: 35px;
+  margin-right: 20px;
+}
+.contact img {
+  height: 100%;
+  width: 100%;
+}
